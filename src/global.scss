@@ -24,3 +24,26 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+ion-toolbar {
+    --background: var(--ion-color-secondary);
+}
+
+ion-tab-bar {
+    --background: var(--ion-color-secondary);
+}
+
+ion-tab-button {
+    --color : var(--ion-color-medium);
+    --color-selected: var(--ion-color-light);
+    --text-color: var(--ion-color-dark);
+}
+
+.list-md {
+    background: var(--ion-color-secondary);
+}
+
+ion-item {
+    --background: var(--ion-color-secondary);
+    --color: var(--ion-color-light);
+}
